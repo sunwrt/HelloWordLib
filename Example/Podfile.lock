@@ -1,0 +1,16 @@
+PODS:
+  - HelloWordLib (0.1.0)
+
+DEPENDENCIES:
+  - HelloWordLib (from `../`)
+
+EXTERNAL SOURCES:
+  HelloWordLib:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HelloWordLib: 848669da1323f2df088c403d4ba28a736b2bb8af
+
+PODFILE CHECKSUM: dcbf746dd3b20e79e324cdffc1ff181e3ddc660a
+
+COCOAPODS: 1.0.1

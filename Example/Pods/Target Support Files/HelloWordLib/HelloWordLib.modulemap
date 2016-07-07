@@ -1,0 +1,6 @@
+framework module HelloWordLib {
+  umbrella header "HelloWordLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
