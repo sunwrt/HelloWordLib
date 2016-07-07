@@ -8,6 +8,10 @@
 
 #import "TMViewController.h"
 
+//#import "<#header#>"  #import <MyLib/XYZ.h>
+
+#import <HelloWordLib/XBHelloWord.h>
+
 @interface TMViewController ()
 
 @end
@@ -18,6 +22,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSLog(@"testing start ... ...");
+    
+    NSString *str = [[[XBHelloWord alloc] init] getHelloWordString:@" Daniel"];
+    
+    NSLog(@"hello word string is %@ ", str);
 }
 
 - (void)didReceiveMemoryWarning

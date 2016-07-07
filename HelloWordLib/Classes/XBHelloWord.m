@@ -13,5 +13,6 @@
 - (NSString*) getHelloWordString:(NSString*)name
 {
     NSString * helloString = [NSString stringWithFormat:@"Hello %@ !!!", name];
+    return helloString;
 }
 @end

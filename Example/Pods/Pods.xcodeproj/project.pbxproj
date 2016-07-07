@@ -9,14 +9,14 @@
 /* Begin PBXBuildFile section */
 		0BE5AA47B67C3A5A089D26823FA20CE7 /* Pods-HelloWordLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86E1FF9698AF26A1D87558830200F65D /* Pods-HelloWordLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18655CE1DDEB7F82482DB14D8CC6C1F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		1A56A3E6D695796F169B91BE9FE7766D /* XBHelloWord.m in Sources */ = {isa = PBXBuildFile; fileRef = D75E7CF39302273E8156E577962F1E70 /* XBHelloWord.m */; };
 		5AF15CFAFCE1AEABAC884A78CF5C50C7 /* Pods-HelloWordLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FD292BB2EBC72FE4FA13BC818302CE /* Pods-HelloWordLib_Example-dummy.m */; };
-		8C2388F200186602D90750519FB8DAD5 /* HelloWordLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2387731844F9B70EE43DAA9D736CCB6D /* HelloWordLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		98E0F2941D2DFA4500B92675 /* XBHelloWord.h in Headers */ = {isa = PBXBuildFile; fileRef = 98E0F2921D2DFA4500B92675 /* XBHelloWord.h */; };
-		98E0F2951D2DFA4500B92675 /* XBHelloWord.m in Sources */ = {isa = PBXBuildFile; fileRef = 98E0F2931D2DFA4500B92675 /* XBHelloWord.m */; };
+		68194182E3D4D7AD5A1D78300980A548 /* HelloWordLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3616F177A891CB98090EC5CC11483D /* HelloWordLib-dummy.m */; };
+		7CF2CB483AF958FB972AB2E6B7CC44D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		7EF1BA13B157FBD7B08E21B02604AF9E /* XBHelloWord.h in Headers */ = {isa = PBXBuildFile; fileRef = 17CB0CC9CFB4D32A74782745301A3DEE /* XBHelloWord.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C4DB18CA980A59C454C746BC37693B0 /* Pods-HelloWordLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 73D99703832AA71C6D41CE07BEAB23C5 /* Pods-HelloWordLib_Tests-dummy.m */; };
+		AA39BDA67EE552D996010B49A796FD5E /* HelloWordLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2387731844F9B70EE43DAA9D736CCB6D /* HelloWordLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B928084DBE95908DDF1DB475205D8F37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		D09DDFEF0CC5B18A9BFC5006949E5CD2 /* HelloWordLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D3616F177A891CB98090EC5CC11483D /* HelloWordLib-dummy.m */; };
-		D75321C859F17835904172AEB29083FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		E068B418412B3914A8943CEAEFA25A1A /* Pods-HelloWordLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C78D3E34E70323DBFDF016CD065E379 /* Pods-HelloWordLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -25,7 +25,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3F79C54DC92F4AFAD498CA59FD525F2B;
+			remoteGlobalIDString = 53F2A6969A641AAD2C0524112EC9D91D;
 			remoteInfo = HelloWordLib;
 		};
 /* End PBXContainerItemProxy section */
@@ -36,6 +36,7 @@
 		12E211C7439F7B7B97C1DE1AA5002F6B /* Pods-HelloWordLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-HelloWordLib_Tests.modulemap"; sourceTree = "<group>"; };
 		154873CFF77ECEC7FBF849030BCEE95E /* Pods-HelloWordLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HelloWordLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		16226C469428814F9490F9F2A21D5CC8 /* Pods-HelloWordLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HelloWordLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		17CB0CC9CFB4D32A74782745301A3DEE /* XBHelloWord.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XBHelloWord.h; sourceTree = "<group>"; };
 		1C660E9E7EA06D97490D014BD9D9EAA1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D94627478F7B59EBFBF09E322A26212 /* HelloWordLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HelloWordLib-prefix.pch"; sourceTree = "<group>"; };
 		2387731844F9B70EE43DAA9D736CCB6D /* HelloWordLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HelloWordLib-umbrella.h"; sourceTree = "<group>"; };
@@ -50,8 +51,6 @@
 		7D8195A367A043ADBD26EB72F7551D7F /* Pods-HelloWordLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HelloWordLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		86E1FF9698AF26A1D87558830200F65D /* Pods-HelloWordLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HelloWordLib_Example-umbrella.h"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		98E0F2921D2DFA4500B92675 /* XBHelloWord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBHelloWord.h; sourceTree = "<group>"; };
-		98E0F2931D2DFA4500B92675 /* XBHelloWord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBHelloWord.m; sourceTree = "<group>"; };
 		9BDE8D8725B9BD8F393A6CFAC90C2F92 /* Pods_HelloWordLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloWordLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C78D3E34E70323DBFDF016CD065E379 /* Pods-HelloWordLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HelloWordLib_Tests-umbrella.h"; sourceTree = "<group>"; };
 		B017D05AB9A11C8129D930114B34EAC5 /* Pods-HelloWordLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HelloWordLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -61,6 +60,7 @@
 		C953489B12DBB7C573A9F5DC14EA12B8 /* HelloWordLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HelloWordLib.xcconfig; sourceTree = "<group>"; };
 		C9E9EB6DC79FEFE656E1D0FEF5F24C3A /* HelloWordLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = HelloWordLib.modulemap; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D75E7CF39302273E8156E577962F1E70 /* XBHelloWord.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XBHelloWord.m; sourceTree = "<group>"; };
 		DD0133B8DB541C967CDA66FF127FAAD4 /* Pods-HelloWordLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HelloWordLib_Tests-resources.sh"; sourceTree = "<group>"; };
 		FAB6B7CC96C239BC297C6A6B6EE47A8B /* Pods-HelloWordLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HelloWordLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FC9CE20A59E50795EC062202219F3CD7 /* Pods-HelloWordLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HelloWordLib_Example-resources.sh"; sourceTree = "<group>"; };
@@ -83,11 +83,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9B21BC914AA9ED135849E59457B3D9FB /* Frameworks */ = {
+		FC156A082D4AE5429F6802F2B636CE70 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D75321C859F17835904172AEB29083FE /* Foundation.framework in Frameworks */,
+				7CF2CB483AF958FB972AB2E6B7CC44D2 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,14 +129,6 @@
 			path = "Target Support Files/Pods-HelloWordLib_Tests";
 			sourceTree = "<group>";
 		};
-		7D7DCAC6609F6DADCA9DFAE93A755E75 /* HelloWordLib */ = {
-			isa = PBXGroup;
-			children = (
-				AFF4A23C7B385E36D45030881D81FAA4 /* Classes */,
-			);
-			path = HelloWordLib;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -166,11 +158,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AFF4A23C7B385E36D45030881D81FAA4 /* Classes */ = {
+		B3DC9D2680CD616BD722287757E282E7 /* HelloWordLib */ = {
 			isa = PBXGroup;
 			children = (
-				98E0F2921D2DFA4500B92675 /* XBHelloWord.h */,
-				98E0F2931D2DFA4500B92675 /* XBHelloWord.m */,
+				B633BD7BECF49246A4E94D5111E70582 /* Classes */,
+			);
+			path = HelloWordLib;
+			sourceTree = "<group>";
+		};
+		B633BD7BECF49246A4E94D5111E70582 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				17CB0CC9CFB4D32A74782745301A3DEE /* XBHelloWord.h */,
+				D75E7CF39302273E8156E577962F1E70 /* XBHelloWord.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -186,7 +186,7 @@
 		D4DD5A9D7304171CC5C8E2993A0DA9DB /* HelloWordLib */ = {
 			isa = PBXGroup;
 			children = (
-				7D7DCAC6609F6DADCA9DFAE93A755E75 /* HelloWordLib */,
+				B3DC9D2680CD616BD722287757E282E7 /* HelloWordLib */,
 				FE35CB41088BBB6820A45E46F3882031 /* Support Files */,
 			);
 			name = HelloWordLib;
@@ -244,12 +244,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A2E7D2013E65C42F7B8CFBB9750382AD /* Headers */ = {
+		E85803D47E70BABD9CE949A3CC9DF02A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C2388F200186602D90750519FB8DAD5 /* HelloWordLib-umbrella.h in Headers */,
-				98E0F2941D2DFA4500B92675 /* XBHelloWord.h in Headers */,
+				AA39BDA67EE552D996010B49A796FD5E /* HelloWordLib-umbrella.h in Headers */,
+				7EF1BA13B157FBD7B08E21B02604AF9E /* XBHelloWord.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,13 +274,13 @@
 			productReference = 9BDE8D8725B9BD8F393A6CFAC90C2F92 /* Pods_HelloWordLib_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3F79C54DC92F4AFAD498CA59FD525F2B /* HelloWordLib */ = {
+		53F2A6969A641AAD2C0524112EC9D91D /* HelloWordLib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 196C7927E19C0078399A0B3C5B943865 /* Build configuration list for PBXNativeTarget "HelloWordLib" */;
+			buildConfigurationList = ACC60E67E675AE85B70527DC829B36F2 /* Build configuration list for PBXNativeTarget "HelloWordLib" */;
 			buildPhases = (
-				A2F849BB39D553D25D5FDC08035C2AC6 /* Sources */,
-				9B21BC914AA9ED135849E59457B3D9FB /* Frameworks */,
-				A2E7D2013E65C42F7B8CFBB9750382AD /* Headers */,
+				A40987E91B5629AFE20D97196BF506E1 /* Sources */,
+				FC156A082D4AE5429F6802F2B636CE70 /* Frameworks */,
+				E85803D47E70BABD9CE949A3CC9DF02A /* Headers */,
 			);
 			buildRules = (
 			);
@@ -329,7 +329,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3F79C54DC92F4AFAD498CA59FD525F2B /* HelloWordLib */,
+				53F2A6969A641AAD2C0524112EC9D91D /* HelloWordLib */,
 				016B5BAB2140BB6F57958BCFD78E29BD /* Pods-HelloWordLib_Example */,
 				7AAD7917B7E8C7150260AEB7D5A1C1BD /* Pods-HelloWordLib_Tests */,
 			);
@@ -353,12 +353,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A2F849BB39D553D25D5FDC08035C2AC6 /* Sources */ = {
+		A40987E91B5629AFE20D97196BF506E1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98E0F2951D2DFA4500B92675 /* XBHelloWord.m in Sources */,
-				D09DDFEF0CC5B18A9BFC5006949E5CD2 /* HelloWordLib-dummy.m in Sources */,
+				68194182E3D4D7AD5A1D78300980A548 /* HelloWordLib-dummy.m in Sources */,
+				1A56A3E6D695796F169B91BE9FE7766D /* XBHelloWord.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -368,7 +368,7 @@
 		E6BB71296AA3C0D70A436456129A78AF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HelloWordLib;
-			target = 3F79C54DC92F4AFAD498CA59FD525F2B /* HelloWordLib */;
+			target = 53F2A6969A641AAD2C0524112EC9D91D /* HelloWordLib */;
 			targetProxy = 73C4A478F923A208CA474B0D6B53EFF0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -511,36 +511,7 @@
 			};
 			name = Release;
 		};
-		5A9701287BC6FA1F3A46E02FB7851703 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C953489B12DBB7C573A9F5DC14EA12B8 /* HelloWordLib.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/HelloWordLib/HelloWordLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HelloWordLib/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HelloWordLib/HelloWordLib.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = HelloWordLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		AB0F7E9A75E27735644ADF57E87B4C20 /* Release */ = {
+		A0A4C37E2937F9DF18C2354C0BA76E4A /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C953489B12DBB7C573A9F5DC14EA12B8 /* HelloWordLib.xcconfig */;
 			buildSettings = {
@@ -568,6 +539,35 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		BDD35C6C861A5CB243CCB53430238BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C953489B12DBB7C573A9F5DC14EA12B8 /* HelloWordLib.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/HelloWordLib/HelloWordLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HelloWordLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HelloWordLib/HelloWordLib.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = HelloWordLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -647,15 +647,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		196C7927E19C0078399A0B3C5B943865 /* Build configuration list for PBXNativeTarget "HelloWordLib" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5A9701287BC6FA1F3A46E02FB7851703 /* Debug */,
-				AB0F7E9A75E27735644ADF57E87B4C20 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -679,6 +670,15 @@
 			buildConfigurations = (
 				1BE569D95720B761D8AFDB378DD3B01E /* Debug */,
 				41DAD20D9B7BD32BFFE30441AEEF9EE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACC60E67E675AE85B70527DC829B36F2 /* Build configuration list for PBXNativeTarget "HelloWordLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDD35C6C861A5CB243CCB53430238BCD /* Debug */,
+				A0A4C37E2937F9DF18C2354C0BA76E4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
