@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HelloWordLib_Example' do
+  pod 'HelloWordLib', :path => '../'
+
+  target 'HelloWordLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
